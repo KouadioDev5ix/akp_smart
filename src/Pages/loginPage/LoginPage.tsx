@@ -1,5 +1,5 @@
 import { useState } from "react";
-import anaderImage from "../../Asset/Img/Logo_AKP.jpg";
+import akp_smart from "../../Asset/akp_logo_actualise.jpg";
 import { Eye, EyeClosed, LockKeyhole, User } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import LoaderComponent from "../../components/Loader";
@@ -52,9 +52,9 @@ export default function LoginPage() {
             {/* Logo */}
             <div className="flex items-center justify-center">
               <img
-                src={anaderImage}
+                src={akp_smart}
                 alt="image de l'ANADER CI"
-                className="w-44 h-20"
+                className="w-24 h-auto"
               />
             </div>
 

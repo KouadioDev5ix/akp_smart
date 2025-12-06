@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import akp_smart from "../Asset/Img/Logo_AKP.jpg";
+// import akp_smart from "../Asset/Img/Logo_AKP.jpg";
+import akp_smart from "../Asset/akp_logo_actualise.jpg";
 import { navBarData } from "../Constant/NavBarData";
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import { LogOut } from "lucide-react";
@@ -45,7 +46,7 @@ export default function AppLayout() {
         <div className="pt-5 flex  items-center justify-center px-4">
           <div>
             <div className="flex items-center justify-center">
-              <img className="w-28 h-auto" src={akp_smart} alt="logo" />
+              <img className="w-20 h-auto" src={akp_smart} alt="logo" />
             </div>
             <h1 className="text-xl pt-4 text-white leading-3 font-extrabold ml-6 ">
               AKP - SMART
